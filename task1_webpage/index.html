@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harmya Sri Akshaya Rompicherla</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    nav {
+      background-color: #1f1f1f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 6px 10px;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #fff;
+      background-color: #e50914;
+      border-radius: 4px;
+    }
+
+    .main-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 50px;
+      flex-wrap: wrap;
+    }
+
+    .info {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .info h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    .info p {
+      font-size: 18px;
+      color: #ccc;
+      margin-bottom: 25px;
+      max-width: 500px;
+    }
+
+    .social {
+      margin: 20px 0;
+    }
+
+    .social a {
+      color: #ccc;
+      margin-right: 15px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .social a:hover {
+      color: #e50914;
+    }
+
+    .profile-pic {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .profile-pic img {
+      max-width: 280px;
+      border-radius: 50%;
+      border: 4px solid #e50914;
+      box-shadow: 0 0 20px #e50914;
+    }
+
+    section {
+      padding: 50px;
+      background-color: #1e1e1e;
+      margin: 30px 0;
+    }
+
+    section h2 {
+      font-size: 28px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    section p, section a {
+      font-size: 18px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    section a {
+      text-decoration: none;
+      color: #61dafb;
+    }
+
+    section a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .main-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-pic {
+        margin-top: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Profile</div>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="main-section">
+    <div class="info">
+      <h1>Hi,<br>I'm Harmya Sri Akshaya Rompicherla</h1>
+      <p>
+        A final-year CSE student passionate about learning and growing. I'm interested in solving real-world problems using technology.
+      </p>
+
+      <div class="social">
+        <a href="https://linkedin.com/in/harmyasriakshaya" target="_blank">LinkedIn</a>
+        <a href="https://github.com/akshayarompicherla" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="profile-pic">
+      <img src="myImage.jpg" alt="Profile Image">
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm <strong>Harmya Sri Akshaya Rompicherla</strong>, a final-year Computer Science and Engineering student at <strong>Vignan's Nirula Institute of Technology ans Science for Women</strong>. While I’m still building confidence in programming and UI, I’ve always been driven by curiosity and a strong desire to learn.
+      <br><br>
+      I was selected for the prestigious <strong>Infosys Springboard Pragati Cohort 3</strong> and completed several certifications through platforms like <strong>Infosys Springboard</strong>, <strong>Udemy</strong>, and <strong>Cisco Networking Academy</strong>. These have helped me gain exposure to software development, networking, and IT fundamentals.
+      <br><br>
+      I also published a research paper in JETIR, titled <em>“Load Balancing and Virtual Machine Migration Model Delay Reduction in Cloud Environment”</em>, which focuses on optimizing performance in cloud computing systems.
+      <br><br>
+      For my academic project, I built an <strong>IR-based Car Parking System</strong> using IoT concepts to detect and display real-time parking slot availability. It was a hands-on introduction to integrating hardware sensors with software logic.
+      <br><br>
+      I’m constantly working on improving my skills, one step at a time, and hope to grow into a confident, well-rounded engineer in the coming years.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: <a href="mailto:akshayarompicherla@gmail.com">akshayarompicherla@gmail.com</a></p>
+  </section>
+</body>
+</html>
